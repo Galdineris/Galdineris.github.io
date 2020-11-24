@@ -20,7 +20,9 @@ jobs:
         make
 
     - name: Generate Site
-      run: publish generate
+      run: |
+        cp Resources/GaldinerisTheme/styles.css Resources 
+        publish generate
 
     - name: Update gh-pages branch
       if: success()
