@@ -2,11 +2,10 @@ name: Upload to Pages
 
 on:
   push:
-    branches:
-    - master
+    branches: [master]
 
 jobs:
-  gh-pages:
+  create-files:
     runs-on: ubuntu-latest
     container:
       image: "swift:5.2"
