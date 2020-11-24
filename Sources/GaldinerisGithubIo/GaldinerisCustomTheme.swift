@@ -12,7 +12,7 @@ import Plot
 extension Theme where Site == GaldinerisGithubIo {
     static var galdineris: Self {
         Theme(htmlFactory: GaldinerisCustomTheme(),
-              resourcePaths: ["Resources/GaldinerisTheme/styles.css"])
+              resourcePaths: ["Resources/styles.css"])
     }
 
     private struct GaldinerisCustomTheme: HTMLFactory {
