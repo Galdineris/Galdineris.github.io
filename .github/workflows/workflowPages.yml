@@ -10,7 +10,7 @@ jobs:
     container:
       image: "swift:5.2"
     steps:
-    - name: Checkout
+    - name: Checkout-to-branch
       uses: actions/checkout@v2
 
     - name: Build Publish
