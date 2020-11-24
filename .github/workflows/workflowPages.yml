@@ -24,9 +24,9 @@ jobs:
       run: publish generate
 
     - name: Update gh-pages branch
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          build_dir: Output
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        build_dir: Output
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
