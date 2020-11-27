@@ -7,7 +7,7 @@ tags: CoreML, Siri Shortcuts, Core Data, ViewCode, UIKit, iOS
 ---
 # Coremelyisis
 
-![Coremelyisis Logo](/GaldinerisTheme/coremelyisis.png)
+![Coremelyisis Logo](/GaldinerisTheme/coremelysis.png)
 
 Coremelysis was the result of paper I wrote together with a colleague of mine on experience sampling on mobile devices.
 
