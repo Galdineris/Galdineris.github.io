@@ -3,12 +3,16 @@ title: Formworks
 description: Form Builder iOS Framework
 image: GaldinerisTheme/formworks.jpg
 date: 2020-11-27 13:30
-tags: ViewCode, JSON, UIKit, Latest
+tags: ViewCode, JSON, UIKit, View Composition, Open Source, Server Driven UI.
 ---
 # Formworks
 
-![Formworks Logo](GaldinerisTheme/formworks.jpg)
+![Formworks Logo](https://github.com/myformworks.png?size=350)
 
-Framework developed to create fully functional forms for iOS applications from JSON files. 
+Formworks aims to be the simplest way to build forms on iOS.
+
+Formworks is an Open-Source framework licensed under the MIT license developed with intention of facilitating the creation of forms on iOS application. Inspired by Server-driven UI, Formworks works by taking in JSONs describing all the components and characteristics of a form.
+
+It uses server driven-UI to build fully funcional forms view controllers and supports real time custom user input validation as well as color customization for all the elements in the form. While working on Formworks, I've built the decoding/encoding system for the JSON files.
 
 See the code on [GitHub](https://github.com/MyFormworks/Formworks)

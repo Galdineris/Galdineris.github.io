@@ -17,7 +17,7 @@ struct GaldinerisGithubIo: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://galdineris.github.io")!
     var name = "Rafael Galdino"
-    var description = "Personal portfolio of an iOS Developer"
+    var description = "The Proactive iOS Developer"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }

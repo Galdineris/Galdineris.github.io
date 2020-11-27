@@ -45,7 +45,7 @@ extension Theme where Site == GaldinerisGithubIo {
                 .body(
                     .header(for: context, selectedSection: section.id),
                     .wrapper(
-                        .p(.contentBody(section.body)),
+                        .p(.style("text-align: left;"), .contentBody(section.body)),
                         .itemList(for: section.items, on: context.site),
                         .footer(for: context.site)
                     )
