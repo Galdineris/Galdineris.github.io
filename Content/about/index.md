@@ -1,5 +1,9 @@
-#  About Me
+#  About
 
-Hi! I'm a software developer specialized in Swift and iOS and tabletop RPG enthusiast.
+![A real photo of me](https://github.com/Galdineris.png?size=200)
 
-Thank you so much for visiting my portfilio website!
+Olá!
+
+My name's Rafael Galdino and I'm a Brazilian iOS developer.
+
+Thanks for reading!
