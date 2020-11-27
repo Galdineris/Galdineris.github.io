@@ -3,11 +3,11 @@ title: MCI
 description: Minimalist Gratitude Journaling App
 image: GaldinerisTheme/MCI.png
 date: 2019-07-30 00:00
-tags: XIB/NIB, Core Data, Local Notifications, Table View, Auto Layout
+tags: XIB/NIB, Core Data, Local Notifications, Table View, Auto Layout, iOS
 ---
 # MCI
 
-![MCI Logo](/GaldinerisTheme/mci.jpg)
+![MCI Logo](/GaldinerisTheme/mci.png)
 
 MCI is an simple gratitude journaling app. 
 
