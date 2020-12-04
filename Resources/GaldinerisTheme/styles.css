@@ -176,7 +176,7 @@ nav {
 nav li {
     display: block;
     margin: 0 7px;
-    line-height: 1.5em;
+    font-size: 20px;
 }
 
 nav li a.selected {
@@ -224,6 +224,7 @@ article a {
     padding: 4px 6px;
     border-radius: 5px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .tag-list a,
@@ -269,7 +270,8 @@ article a {
     .wrapper {
         margin-left: auto;
         padding: 0px;
-        max-width: 50%;
+        max-width: 90%;
+        min-width: 300px;
     }
 
     .wrapper footer {
@@ -289,6 +291,7 @@ article a {
 
     header footer {
         visibility: hidden;
+        height: 0;
     }
 
     .portfolio {
@@ -314,5 +317,13 @@ article a {
 
     nav li {
         display: inline-block;
+    }
+
+    .portfolio_card {
+        margin-bottom: 50%;
+    }
+
+    .portfolio_card_overlay_text {
+        font-size: 15px;
     }
 }

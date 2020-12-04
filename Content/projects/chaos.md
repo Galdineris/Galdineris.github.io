@@ -6,7 +6,7 @@ date: 2020-06-30 00:00
 tags: SpriteKit
 ---
 
-**Winner of WWDC20 Swift Student Challenge**
+**Chaos Game was one of the winners of WWDC20 Swift Student Challenge**
 
 Inspired by The Chaos Game at Between Art and Science by Tom Bates, this is a simple fractal drawing SwiftPlaygrounds playground using the Chaos Game “method” and SpriteKit.
 

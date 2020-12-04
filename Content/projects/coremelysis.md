@@ -6,7 +6,7 @@ date: 2020-11-20 00:00
 tags: CoreML, Siri Shortcuts, Core Data, ViewCode, UIKit, iOS
 ---
 
-Coremelysis was the result of paper I wrote together with a colleague of mine on experience sampling on mobile devices.
+**Coremelysis resulted from a paper I wrote with a colleague on experience sampling on mobile devices.**
 
 Ecological Momentary Assessment (EMA) are repeated sampling of behaviors in order to avoid biases and maximize ecological validity. The use of mobile applications that provide privacy to the participants and help in the process of data collection is recommended to conduct EMA-like studies. This project aims to build an application capable of applying Machine Learning On- Device (MLOD) to EMAs using Sentiment Analysis.
 

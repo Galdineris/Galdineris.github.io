@@ -6,7 +6,7 @@ date: 2020-11-27 13:30
 tags: ViewCode, JSON, UIKit, View Composition, Open Source, Server Driven UI, iOS
 ---
 
-Formworks aims to be the simplest way to build forms on iOS.
+**Formworks aims to be the simplest way to build forms on iOS.**
 
 Formworks is an Open-Source framework licensed under the MIT license developed with intention of facilitating the creation of forms on iOS application. Inspired by Server-driven UI, Formworks works by taking in JSONs describing all the components and characteristics of a form.
 

@@ -6,7 +6,7 @@ date: 2019-07-30 00:00
 tags: XIB/NIB, Core Data, Local Notifications, Table View, Auto Layout, iOS
 ---
 
-MCI is an simple gratitude journaling app. 
+**MCI is an simple gratitude journaling app.** 
 
 Loosely inspired by the play "*Every Brilliant Thing*" written by Duncan Macmillan, MCI aims to help you list everything that helps make life a little better. Its purpose is to help you get up when you are feeling a little down. A feeling, an object or even a person. If you like it, why not help future you to not forget it?
 

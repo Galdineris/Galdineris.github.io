@@ -6,7 +6,7 @@ date: 2020-02-01 00:00
 tags: Storyboard, tvOS, UIKit, AVFoundation, SpriteKit
 ---
 
-This is a Fast-Paced Game based on surrealism's characteristics. 
+**Dõpu is Fast-Paced Game based on surrealism's characteristics for the AppleTV** 
 
 The main character is Dõpu, that is a colorful and curious creature. You will discover many colorful skins of Dõpu while creating experience in the game.
 
