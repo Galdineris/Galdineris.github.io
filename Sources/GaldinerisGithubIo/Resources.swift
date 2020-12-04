@@ -10,7 +10,7 @@ import Plot
 extension Node where Context == HTML.BodyContext {
     static var githubIcon: Node {
         .a(
-            .href("https://www.linkedin.com/in/rafael-galdino/"),
+            .href("https://www.github.com/galdineris/"),
             .class("socials_item_link"),
             .target(.blank),
             .i(.class("fab fa-github-square"))

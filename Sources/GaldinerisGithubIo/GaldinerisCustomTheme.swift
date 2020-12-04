@@ -21,7 +21,7 @@ extension Theme where Site == GaldinerisGithubIo {
                 .lang(context.site.language),
                 .head(for: index, on: context.site),
                 .body(
-                    .style(##"background: #f0f0f0"##),
+                    .style(##"background: #fafafa"##),
                     .header(for: context, selectedSection: nil),
                     .wrapper(
                         .itemList(
@@ -43,9 +43,19 @@ extension Theme where Site == GaldinerisGithubIo {
                 .lang(context.site.language),
                 .head(for: section, on: context.site),
                 .body(
+                    .if(section.id.rawValue == "projects", .style(##"background: #fafafa"##)),
                     .header(for: context, selectedSection: section.id),
                     .wrapper(
-                        .p(.style("text-align: left;"), .contentBody(section.body)),
+                        .if(section.id.rawValue == "about", .style("text-align: left")),
+                        .if(section.id.rawValue == "about",
+                            .div(
+                                .style("text-align: center"),
+                                .img(.class("profile_pic"),
+                                    .src(Path("https://github.com/Galdineris.png?size=200"))
+                                )
+                            )
+                        ),
+                        .p(.contentBody(section.body)),
                         .itemList(for: section.items, on: context.site),
                         .footer(for: context.site)
                     )
@@ -63,8 +73,17 @@ extension Theme where Site == GaldinerisGithubIo {
                     .header(for: context, selectedSection: item.sectionID),
                     .wrapper(
                         .article(
-                            .div(
-                                .class("content"),
+                            .div(.style("text-align: center"),
+                                 .h1(.text(item.title)),
+                                 .if(item.imagePath != nil,
+                                     .div(
+                                        .img(.class("profile_pic"),
+                                            .src(item.imagePath ?? "")),
+                                        .spacer
+                                     )
+                                 )
+                            ),
+                            .div(.class("contentBody"),
                                 .contentBody(item.body)
                             ),
                             .span("Frameworks and Technologies used: "),
@@ -98,11 +117,9 @@ extension Theme where Site == GaldinerisGithubIo {
                     .header(for: context, selectedSection: nil),
                     .wrapper(
                         .h1("Browse all tags"),
-                        .ul(
-                            .class("all-tags"),
+                        .ul(.class("all-tags"),
                             .forEach(page.tags.sorted()) { tag in
-                                .li(
-                                    .class("tag"),
+                                .li(.class("tag"),
                                     .p(
                                         .text(tag.string)
                                     )
@@ -125,7 +142,9 @@ extension Theme where Site == GaldinerisGithubIo {
                     .wrapper(
                         .h1(
                             "Tagged with ",
-                            .span(.class("tag"), .text(page.tag.string))
+                            .span(.class("tag"),
+                                  .text(page.tag.string)
+                            )
                         ),
                         .itemList(
                             for: context.items(

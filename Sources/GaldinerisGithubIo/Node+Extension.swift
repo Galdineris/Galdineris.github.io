@@ -14,6 +14,10 @@ extension Node where Context == HTML.BodyContext {
         .div(.class("wrapper"), .group(nodes))
     }
 
+    static var spacer: Node {
+        .p(.text(" "))
+    }
+
     static func clearfix(_ nodes: Node...) -> Node {
         .div(.class("clearfix"), .group(nodes))
     }

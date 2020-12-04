@@ -5,9 +5,6 @@ image: GaldinerisTheme/coremelysis.png
 date: 2020-11-20 00:00
 tags: CoreML, Siri Shortcuts, Core Data, ViewCode, UIKit, iOS
 ---
-# Coremelyisis
-
-![Coremelyisis Logo](/GaldinerisTheme/coremelysis.png)
 
 Coremelysis was the result of paper I wrote together with a colleague of mine on experience sampling on mobile devices.
 
@@ -15,4 +12,4 @@ Ecological Momentary Assessment (EMA) are repeated sampling of behaviors in orde
 
 In this project, I was responsible for building the CoreML framework abstraction as well as implementing the Siri Shortcuts integration. 
 
-See the code on [GitHub](https://github.com/Galdineris/Coremelysis)
+[Source code on GitHub](https://github.com/Galdineris/Coremelysis)
