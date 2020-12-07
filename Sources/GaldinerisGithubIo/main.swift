@@ -19,7 +19,7 @@ struct GaldinerisGithubIo: Website {
     var name = "Rafael Galdino"
     var description = "The Proactive iOS Developer"
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { Path("Resources/GaldinerisTheme/memoji.png") }
 }
 
 // This will generate your website using the built-in Foundation theme:
